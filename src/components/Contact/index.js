@@ -130,7 +130,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_kvt0cgn', 'template_1pbhyjm', form.current, 'mFOCcJvnRe-tBQnty')
+    emailjs.sendForm('service_eo4tz3o', 'template_omrbohf', form.current, 'mFOCcJvnRe-tBQnty')
       .then((result) => {
         setOpen(true);
         form.current.reset();
